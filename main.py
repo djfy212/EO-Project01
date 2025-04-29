@@ -8,6 +8,7 @@ from modules.sensation_logger import log_sensation
 # 2. 메인 실행 함수
 def main():
     print("EO 시스템에 접속되었습니다.")
+    print("자, 언제든 말을 걸어주세요.")
 
     while True:
         # 2-1. 사용자 입력 받기

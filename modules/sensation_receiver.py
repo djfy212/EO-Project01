@@ -18,8 +18,13 @@ def analyze_sensation(user_input):
 
     # (아직 로직 없음 - 기본 틀만 잡기)
 
-    return {
+    # 간단한 감정어 감지 예시
+    if any(word in content for word in["좋아", "행복", "기뻐", "즐거워"]):
+        sensation_tags["pulse_density"] = 0.7
+    elif any(word in )
+
+    return {    
         "timestamp": user_input["timestamp"],
         "content": content,
         "tags": sensation_tags
-    }
+    }   # sensation_data
